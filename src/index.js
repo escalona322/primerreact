@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
+import Saludo from './components/Saludo/Saludo';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Saludo nombre="hola1" edad="32"/>
+    <Saludo nombre="hola2" edad="24"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
