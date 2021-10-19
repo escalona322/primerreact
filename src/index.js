@@ -4,11 +4,11 @@ import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import Saludo from './components/Saludo/Saludo';
+import Metodos from './components/Metodos/Metodos';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Saludo nombre="hola1" edad="32"/>
-    <Saludo nombre="hola2" edad="24"/>
+    <Metodos/>
   </React.StrictMode>,
   document.getElementById('root')
 );
