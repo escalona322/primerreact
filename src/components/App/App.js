@@ -1,23 +1,15 @@
 //import logo from './logo.svg';
 import './App.css';
-
+import Saludo from './../Saludo/Saludo'
 function App() {
+
+  const metodoPadre = (descripcion) => {
+    console.log("Ejecutando metodo del Parent "+descripcion);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Saludo nombre="Sandra" edad="22" metodoPadre={metodoPadre}/>
+      <Saludo nombre="Adrian" edad="24" metodoPadre={metodoPadre}/>
     </div>
   );
 }

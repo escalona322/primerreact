@@ -5,10 +5,16 @@ import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import Saludo from './components/Saludo/Saludo';
 import Metodos from './components/Metodos/Metodos';
+import SumarNumeros from './components/Metodos/SumarNumeros';
+import Matematicas from './components/Metodos/Matematicas';
+import Padre from './components/Metodos/Padre';
+import Contador from './components/Contador/Contador';
+import PadreDibujo from './components/PadreDibujo/PadreDibujo';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Metodos/>
+    <PadreDibujo/>
   </React.StrictMode>,
   document.getElementById('root')
 );
