@@ -17,7 +17,7 @@ function PadreDibujo(){
         <React.Fragment>
             <h1 style={{color:"green"}}>La multiplicacion es: {multidibujo}</h1>
             <MatematicasDibujo num1="9" num2="54" multiplicarDibujo={multiplicarDibujo}/>
-            <MatematicasDibujo num1="6" num2="12" multiplicarDibujo={multiplicarDibujo}/>            <h2>La multiplicacion es: {multidibujo}</h2>
+            <MatematicasDibujo num1="6" num2="12" multiplicarDibujo={multiplicarDibujo}/>           
             <MatematicasDibujo num1="5" num2="2" multiplicarDibujo={multiplicarDibujo}/>          
             <MatematicasDibujo num1="7" num2="5" multiplicarDibujo={multiplicarDibujo}/>           
         </React.Fragment>
